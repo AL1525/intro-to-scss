@@ -1,0 +1,14 @@
+/*px's are for monkeys, rem or relative units, 1rem=10px, vw= viewport width, VH= viewport height*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.header {
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
