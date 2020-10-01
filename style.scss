@@ -4,7 +4,7 @@ $colors: (
 );
 
 @function color($color-name) {
-  @return map-get($color-name);
+  @return map-get($colors, $color-name);
 }
 
 /*px's are for monkeys, rem or relative units, 1rem=10px, vw= viewport width, VH= viewport height*/
